@@ -130,7 +130,7 @@ const makeCircleList = () => {
   );
 };
 
-for (let i = 0; i < 400; i++) {
+for (let i = 0; i < 800; i++) {
   makeCircleList();
 }
 
