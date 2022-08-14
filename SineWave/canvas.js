@@ -57,7 +57,7 @@ function draw() {
 function animate() {
   requestAnimationFrame(animate);
   // c.clearRect(0, 0, canvas.width, canvas.height);
-  c.fillStyle = "rgba(0,0,0,0.01)";
+  c.fillStyle = "rgba(124,124,124,0.01)";
   c.fillRect(0, 0, canvas.width, canvas.height);
   // c.fillText("HTML CANVAS BOILERPLATE", mouse.x, mouse.y);
   draw();
