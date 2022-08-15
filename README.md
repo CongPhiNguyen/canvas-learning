@@ -7,3 +7,6 @@
 - Circle Collision simulation
 - Rectangle Collision
 - Circular Motion
+- SineWave
+- Perlin Noise Snake
+- Firework
