@@ -82,18 +82,18 @@ class Particle {
     // this.y =
     //   canvas.height / 2 + this.distanceFromCenter * Math.sin(Math.PI + time);
     // Nhân code với sin nó ra một đống thứ
-    this.x =
-      canvas.width / 2 +
-      this.distanceFromCenter *
-        Math.cos(angle) *
-        Math.sin(Math.PI + time + this.distanceFromCenter);
-    this.y =
-      canvas.height / 2 +
-      this.distanceFromCenter *
-        Math.sin(angle) *
-        Math.cos(Math.PI + time + this.distanceFromCenter);
-    // this.x = canvas.width / 2 + this.distanceFromCenter * Math.cos(angle);
-    // this.y = canvas.height / 2 + this.distanceFromCenter * Math.sin(angle);
+    // this.x =
+    //   canvas.width / 2 +
+    //   this.distanceFromCenter *
+    //     Math.cos(angle) *
+    //     Math.sin(Math.PI + time + this.distanceFromCenter);
+    // this.y =
+    //   canvas.height / 2 +
+    //   this.distanceFromCenter *
+    //     Math.sin(angle) *
+    //     Math.cos(Math.PI + time + this.distanceFromCenter);
+    this.x = canvas.width / 2 + this.distanceFromCenter * Math.cos(angle);
+    this.y = canvas.height / 2 + this.distanceFromCenter * Math.sin(angle);
   }
 }
 
