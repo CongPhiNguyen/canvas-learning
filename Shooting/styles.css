@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  /* border: 4px double #333;  */
+  /* background: red; */
+}
+
+body {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  font-size: 62.5%;
+}
+
+.score-container {
+  position: absolute;
+  color: white;
+  font-size: 2.4em;
+  padding: 0.8em;
+}
+
+.game-notification {
+  position: absolute;
+  background-color: white;
+  left: calc(30%);
+  top: calc(50% - 8em);
+  padding: 2em;
+  width: 40%;
+  text-align: center;
+}
+
+.game-notification .point {
+  font-size: 5.2em;
+  font-weight: bold;
+}
+
+.game-notification .point-label {
+  font-size: 2.4em;
+}
+
+.game-notification .start-game-btn {
+  font-size: 1.8em;
+  background-color: cadetblue;
+  color: #fff;
+  border-radius: 4em;
+  padding: 0.6em 1em;
+  margin-top: 1em;
+  border: none;
+  width: 100%;
+}
+
+.game-notification .start-game-btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
