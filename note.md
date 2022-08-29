@@ -11,3 +11,7 @@ e.key mặc dù trả đủ tên của nút được bấm nhưng mà khi bật 
 Cứ đơn giản theo vật lý là ra. Đầu tiên cứ làm cho vật rớt xuống theo trọng lực.
 Vận tốc ban đầu là 0, tăng dần theo GRAVITY
 Khi nào nhấn nút up thì có thể giảm cái vận tốc để có thể nhảy lên, từ đây có thể làm double jump các kiểu
+
+## Game:
+
+Reset game thì có thể đơn giản là gọi khởi tạo lại các giá trị khi init

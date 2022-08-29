@@ -5,12 +5,16 @@
 }
 
 canvas {
-  border: 1px solid #333;
+  /* border: 1px solid #333; */
   /* background: red; */
+  margin: auto;
 }
 
-html,
 body {
   height: 100%;
   overflow: hidden;
+  background-color: #09080d;
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
 }
