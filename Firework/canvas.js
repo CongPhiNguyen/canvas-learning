@@ -109,7 +109,7 @@ addEventListener("click", (event) => {
   const angleIncrement = (Math.PI * 2) / particleCount;
 
   for (let i = 0; i < 100; i++) {
-    const particle = new Particle(mouse.x, mouse.y, 3, randomColor2(), {
+    const particle = new Particle(mouse.x, mouse.y, 1, randomColor2(), {
       x: Math.cos(angleIncrement * i) * 8 * Math.random(),
       y: Math.sin(angleIncrement * i) * 8 * Math.random(),
     });
