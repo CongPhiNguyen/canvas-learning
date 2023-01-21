@@ -33,8 +33,9 @@ addEventListener("resize", () => {
   init();
 });
 
-const gravity = 0.005;
-const friction = 0.997;
+const gravity = 0.05;
+const friction = 0.9
+;
 
 class Particle {
   constructor(x, y, radius, color, velocity) {
